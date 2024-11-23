@@ -68,4 +68,4 @@ ___
 <img src="https://github.com/user-attachments/assets/fbf1cb89-92c3-4f60-b509-63d314d04d7a" align="center"/>
 </p>
 
-Made by OUSSAMA BENSARJANE --> [linkedin](https://https://www.linkedin.com/in/oussama-bensarjane/)
+Made by OUSSAMA BENSARJANE --> [linkedin](https://www.linkedin.com/in/oussama-bensarjane/)
