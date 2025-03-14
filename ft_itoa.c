@@ -38,14 +38,19 @@ char	*ft_itoa(int n)
 	int		i;
 	char	*result;
 	long	nbr;
+	int 	negative;
 
 	nbr = n;
 	len = int_len(nbr);
+	negative = 0;
 	result = malloc((len + 1));
 	if (!result)
 		return (NULL);
 	if (nbr < 0)
+	{
+		negative = 1;
 		nbr = -nbr;
+	}
 	i = len - 1;
 	while (i >= 0)
 	{
@@ -53,7 +58,7 @@ char	*ft_itoa(int n)
 		nbr = nbr / 10;
 		i--;
 	}
-	if (n < 0)
+	if (negative)
 		result[0] = '-';
 	result[len] = 0;
 	return (result);
